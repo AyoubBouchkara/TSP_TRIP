@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3cf61056203fd1a88257c55b1e69bd17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3cf61056203fd1a88257c55b1e69bd17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3cf61056203fd1a88257c55b1e69bd17 = L.map(
+                "map_3cf61056203fd1a88257c55b1e69bd17",
+                {
+                    center: [31.6349, -8.0089],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_45dbc6374e54d087994bcf79f3b59a81 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_45dbc6374e54d087994bcf79f3b59a81.addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var marker_9f50046fe3eeb3ae171cad6878b29e81 = L.marker(
+                [31.6349, -8.0089],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_6eba4dc086578cb2905a76be38378e8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13de16450d20dfc9c47621dcd89b9644 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4590bddb5b34ade6fe518b5b6ec73b52 = $(`<div id="html_4590bddb5b34ade6fe518b5b6ec73b52" style="width: 100.0%; height: 100.0%;">0° Ville: Marrakech</div>`)[0];
+                popup_13de16450d20dfc9c47621dcd89b9644.setContent(html_4590bddb5b34ade6fe518b5b6ec73b52);
+            
+        
+
+        marker_9f50046fe3eeb3ae171cad6878b29e81.bindPopup(popup_13de16450d20dfc9c47621dcd89b9644)
+        ;
+
+        
+    
+    
+                marker_9f50046fe3eeb3ae171cad6878b29e81.setIcon(icon_6eba4dc086578cb2905a76be38378e8e);
+            
+    
+            var marker_b31727d2900f440453bc1b2730e211c0 = L.marker(
+                [35.5785, -5.3684],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_b6b0c0786b891bd38bfa21227b1732e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d9d84d6ffdc10e514b7a0ccfc5c8bb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dde71cb9636c1863b5d2db6cef81b7d4 = $(`<div id="html_dde71cb9636c1863b5d2db6cef81b7d4" style="width: 100.0%; height: 100.0%;">1° Ville: Tétouan</div>`)[0];
+                popup_5d9d84d6ffdc10e514b7a0ccfc5c8bb0.setContent(html_dde71cb9636c1863b5d2db6cef81b7d4);
+            
+        
+
+        marker_b31727d2900f440453bc1b2730e211c0.bindPopup(popup_5d9d84d6ffdc10e514b7a0ccfc5c8bb0)
+        ;
+
+        
+    
+    
+                marker_b31727d2900f440453bc1b2730e211c0.setIcon(icon_b6b0c0786b891bd38bfa21227b1732e1);
+            
+    
+            var marker_34659d0252f7318f5c0df9893ed3a3f2 = L.marker(
+                [32.2994, -9.2372],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_0dfdb1d6e19404943a9847f3c344b128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9300b2161e477b5d8484a040274a6b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc55e1e913d902f82f67a7d33cc07d55 = $(`<div id="html_cc55e1e913d902f82f67a7d33cc07d55" style="width: 100.0%; height: 100.0%;">2° Ville: Safi</div>`)[0];
+                popup_c9300b2161e477b5d8484a040274a6b8.setContent(html_cc55e1e913d902f82f67a7d33cc07d55);
+            
+        
+
+        marker_34659d0252f7318f5c0df9893ed3a3f2.bindPopup(popup_c9300b2161e477b5d8484a040274a6b8)
+        ;
+
+        
+    
+    
+                marker_34659d0252f7318f5c0df9893ed3a3f2.setIcon(icon_0dfdb1d6e19404943a9847f3c344b128);
+            
+    
+            var marker_a1f5c5b3b39839ddc634e57ed0399fb8 = L.marker(
+                [32.8866, -6.9075],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_afac575e5c39e9d1c6c48b21a4f342b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebf68648945cdf40c0ae9d60f0482b54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7c2bc8836d76829f6370880cdc7be2c = $(`<div id="html_a7c2bc8836d76829f6370880cdc7be2c" style="width: 100.0%; height: 100.0%;">3° Ville: Khouribga</div>`)[0];
+                popup_ebf68648945cdf40c0ae9d60f0482b54.setContent(html_a7c2bc8836d76829f6370880cdc7be2c);
+            
+        
+
+        marker_a1f5c5b3b39839ddc634e57ed0399fb8.bindPopup(popup_ebf68648945cdf40c0ae9d60f0482b54)
+        ;
+
+        
+    
+    
+                marker_a1f5c5b3b39839ddc634e57ed0399fb8.setIcon(icon_afac575e5c39e9d1c6c48b21a4f342b8);
+            
+    
+            var marker_3036c8d32dfc3ce003cc308e51671fda = L.marker(
+                [33.8815, -5.5544],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_ddc1a8ec88b659e6120472134a0025a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3316876e9db7e623d2d485a7003e54c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ecf0ea0cb5a778a8387647c5d5ba765 = $(`<div id="html_8ecf0ea0cb5a778a8387647c5d5ba765" style="width: 100.0%; height: 100.0%;">4° Ville: Meknès</div>`)[0];
+                popup_b3316876e9db7e623d2d485a7003e54c.setContent(html_8ecf0ea0cb5a778a8387647c5d5ba765);
+            
+        
+
+        marker_3036c8d32dfc3ce003cc308e51671fda.bindPopup(popup_b3316876e9db7e623d2d485a7003e54c)
+        ;
+
+        
+    
+    
+                marker_3036c8d32dfc3ce003cc308e51671fda.setIcon(icon_ddc1a8ec88b659e6120472134a0025a0);
+            
+    
+            var poly_line_e4bea49a069ee6e17958c3e327b2285a = L.polyline(
+                [[31.6349, -8.0089], [35.5785, -5.3684]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var poly_line_04f38a30cb5c379d6b9598facd1dc416 = L.polyline(
+                [[35.5785, -5.3684], [32.2994, -9.2372]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var poly_line_b2a130cac6dcdf6ac63c8b2582e1de92 = L.polyline(
+                [[32.2994, -9.2372], [32.8866, -6.9075]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var poly_line_e508ce7ada757883484b4b79698d0d15 = L.polyline(
+                [[32.8866, -6.9075], [33.8815, -5.5544]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var poly_line_b7cf6e1f67e7f64125fa2a047ea81cef = L.polyline(
+                [[33.8815, -5.5544], [31.6349, -8.0089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var marker_6960db83936d53981b7dcd53828d3da4 = L.marker(
+                [31.6349, -8.0089],
+                {
+}
+            ).addTo(map_3cf61056203fd1a88257c55b1e69bd17);
+        
+    
+            var icon_4f0f8b2ddeb3302d7456f23c6d575a78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb2b3701faf802dbc086402a6e52b95c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f3b08dc5d2d9bb7802b4fea64d69665 = $(`<div id="html_4f3b08dc5d2d9bb7802b4fea64d69665" style="width: 100.0%; height: 100.0%;">Distance totale : 1746.01 km</div>`)[0];
+                popup_fb2b3701faf802dbc086402a6e52b95c.setContent(html_4f3b08dc5d2d9bb7802b4fea64d69665);
+            
+        
+
+        marker_6960db83936d53981b7dcd53828d3da4.bindPopup(popup_fb2b3701faf802dbc086402a6e52b95c)
+        ;
+
+        
+    
+    
+                marker_6960db83936d53981b7dcd53828d3da4.setIcon(icon_4f0f8b2ddeb3302d7456f23c6d575a78);
+            
+</script>
+</html>
